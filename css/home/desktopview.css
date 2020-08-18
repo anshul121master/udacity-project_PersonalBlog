@@ -1,0 +1,22 @@
+@media(min-width: 601px){
+.container {
+  display: grid;
+  grid-template-rows: 10vh minmax(200px, auto) 30vh;
+  grid-template-columns: 15vw 85vw;
+  grid-template-areas:
+    "hd hd"
+    "as main"
+    "ft ft";
+}
+
+main .flexbox {
+  display: flex;
+  /*border: 3px solid red;*/
+}
+
+aside .flexbox {
+  display: flex;
+  flex-direction: column;
+ /* border: 3px solid red;*/
+}
+}

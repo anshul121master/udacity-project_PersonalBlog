@@ -1,0 +1,50 @@
+@import "desktopview.css";
+@import "mobileview.css";
+
+header,
+footer {
+  background-color: #586776;
+}
+
+header {
+  grid-area: hd;
+}
+
+footer {
+  border-top: 3px solid black;
+  grid-area: ft;
+}
+
+article {
+  border-bottom: 3px solid black;
+  border-radius: 6px;
+  background-color: #dae0e2;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px #616C6F;
+}
+
+aside {
+  background-color: #eaf0f1;
+  /*border: 3px solid #535c68;*/
+  grid-area: as;
+}
+
+aside button {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: #3498db;
+  margin: 5px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+main {
+  grid-area: main;
+}
+
+
+
