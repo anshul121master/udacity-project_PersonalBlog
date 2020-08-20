@@ -9,6 +9,9 @@ footer {
 header {
   grid-area: hd;
 }
+p{
+  font-weight: bold;
+}
 
 footer {
   border-top: 3px solid black;
